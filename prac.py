@@ -21,28 +21,15 @@ mult_list(values)
 # Write a Python function called mult_list() to multiply all the numbers in a list.
 
 def mult_list(lst):
-  
-  if len(lst) == 0:
-    return 0
-  
-  prod = lst[0]
-
-  
-  if len(lst) > 1:
-    for i in lst[1:]:
-      prod = prod * i
-
-  return prod
-print(mult_list[1,2,3])
-print(mult_list[15])
+  result = 1
+  for num in numbers:
+     result = num
+  return result
 
 # Write a Python function called rev_string() to reverse a string.
 def rev_string(str):
-    rev = reversed(str)
-    for i in rev:
-        print(i)
-
-rev_string("Apples and Oranges")
+    return str[::-1]
+print(rev_string("Apples and Oranges"))
 
 # Write a Python function called num_within() to check whether a number falls in a given range.
 
